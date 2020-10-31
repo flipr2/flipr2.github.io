@@ -298,6 +298,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items:center;
+  padding-bottom: 1rem;
   background-color: $secondary-color;
   h1 {
     font-size: 60px;
@@ -326,7 +327,28 @@ a:active {
 }
 
 
+.background-banner {
+  background-image: url('/images/banner_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+.banner-wrapper { 
+  padding: 2rem 0rem;
+}
 
+.your-story-link {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #FFF;
+  
+
+}
+
+.your-story-link:hover {
+  color: #CCC;
+  transition: all 0.3s ease-in;
+}
 
 
 /* .hero-area  */
