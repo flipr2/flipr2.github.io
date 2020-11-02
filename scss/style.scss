@@ -335,19 +335,28 @@ a:active {
 }
 .banner-wrapper { 
   padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .your-story-link {
   font-size: 2rem;
   margin-left: 2rem;
   color: #FFF;
-  
+  font-family:  Helvetica, sans-serif;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
 
 }
 
 .your-story-link:hover {
   color: #CCC;
   transition: all 0.3s ease-in;
+  text-decoration: none;
 }
 
 

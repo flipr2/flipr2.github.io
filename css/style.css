@@ -345,17 +345,26 @@ a:active {
 
 .banner-wrapper {
   padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .your-story-link {
   font-size: 2rem;
   margin-left: 2rem;
   color: #FFF;
+  font-family: Helvetica, sans-serif;
+}
+.your-story-link img {
+  width: 100px;
+  height: 100px;
 }
 
 .your-story-link:hover {
   color: #CCC;
   transition: all 0.3s ease-in;
+  text-decoration: none;
 }
 
 /* .hero-area  */
@@ -768,9 +777,13 @@ footer p.copyright-text a:hover {
   }
 
   .your-story-link {
-    padding: 2rem;
     text-align: center;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-weight: 600;
+    line-height: 40px;
   }
 }
 

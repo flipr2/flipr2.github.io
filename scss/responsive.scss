@@ -177,8 +177,12 @@
         padding: 1rem 0rem;
     }
     .your-story-link {
-        padding: 2rem;
         text-align: center;
         font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        font-weight: 600;
+        line-height: 40px;
     }
 }
